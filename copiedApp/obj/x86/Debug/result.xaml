@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="copiedApp.result"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:copiedApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#0033cc">
+        <TextBlock x:ConnectionId='1' Name="textb" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32" Height="170" Margin="496,255,489,295" Width="295"/>
+
+    </Grid>
+</Page>
+

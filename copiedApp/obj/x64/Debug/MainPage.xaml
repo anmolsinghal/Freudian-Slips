@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="copiedApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:copiedApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" FontSize="22">
+
+    <Grid Background="#0033cc">
+        <RelativePanel Margin="50,50,50,50">
+            
+            <TextBlock x:ConnectionId='1' Name="textb" RelativePanel.AlignTopWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" Text="Heading"/>
+            <Image x:ConnectionId='2' Name="pic" RelativePanel.Below="textb" RelativePanel.AlignHorizontalCenterWithPanel="True" MinHeight="300" MinWidth="300"/>
+            
+            
+        </RelativePanel>
+    </Grid>
+</Page>
+

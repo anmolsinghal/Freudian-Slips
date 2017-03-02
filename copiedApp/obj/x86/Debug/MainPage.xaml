@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="copiedApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:copiedApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:ConnectionId='1' Name="pic" HorizontalAlignment="Stretch" Height="630" Margin="10,10,0,0" VerticalAlignment="Stretch" Width="1260" CacheMode="BitmapCache"/>
+        <TextBlock x:ConnectionId='2' Name="textb" Text="" HorizontalAlignment="Left" Margin="10,645,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="65" Width="1260"/>
+
+    </Grid>
+</Page>
+

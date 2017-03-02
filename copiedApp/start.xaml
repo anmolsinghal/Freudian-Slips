@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="copiedApp.start"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:copiedApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#0033cc">
+        <RelativePanel Margin="100,100,100,100">
+            <Image Name="pic" MaxWidth="200" MaxHeight="200" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignTopWithPanel="True" Source="/Assets/start.png"/>
+            <Button RelativePanel.AlignHorizontalCenterWith="pic" RelativePanel.AlignBottomWithPanel="True" Content="START" Click="button_Click" Foreground="#FFFCFBFB" BorderBrush="#FFF9EDED" VerticalAlignment="Bottom" FontSize="48" FontWeight="Bold" FontFamily="AR DARLING"  Padding="40,10"/>
+            <TextBlock Text="X-MACHINA" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" FontSize="72" FontWeight="Bold" FontFamily="Arial Black" SelectionChanged="TextBlock_SelectionChanged_1" Foreground="#FFFCFBFB"/>
+        </RelativePanel>
+    </Grid>
+</Page>
